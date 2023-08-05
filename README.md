@@ -30,4 +30,7 @@ For this study case, I used the following independent variables:
 
 Model accuracy: 94.0 %
 
+### Model optimization
+
+In this stage, I tuned the hyperparameters optimizing the model. By using **GridSearchCV** we find the best combination which result in the highest accuracy.
 
