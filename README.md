@@ -10,13 +10,7 @@ To address this problem, I used a public data set. The source was kept unreveale
 
 You can find the data in a csv file attached to this repository in the **database** folder. If it was helpful to you, you could give it a ⭐ 
 
-## Model 
-
-### Logistic Regression
-
-This type of statistical model is used for classification and predictive analysis. Estimate the probability of a binary-outcome event occurring given a dataset of independent variables. 
-
-For this study case, I used the following independent variables:
+For this case study, I had the following independent variables:
 
 - distance from home
 - distance from the last transaction
@@ -26,11 +20,16 @@ For this study case, I used the following independent variables:
 - used pin number (yes or not)
 - online order (yes or not)
 
-### Model evaluation
+## Model Selection
+
+### Logistic Regression
+
+This type of statistical model is used for classification and predictive analysis. Estimate the probability of a binary-outcome event occurring given a dataset of independent variables. 
 
 Model accuracy: 94.0 %
 
 ### Model optimization
 
 In this stage, I tuned the hyperparameters optimizing the model. By using **GridSearchCV** we find the best combination which result in the highest accuracy.
+
 
